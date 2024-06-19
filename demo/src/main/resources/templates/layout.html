@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Layout Page</title>
+</head>
+<body>
+    <header>
+        <h1>共通ヘッダー</h1>
+    </header>
+    <div th:replace="${content}"></div>
+    <footer>
+        <p>共通フッター</p>
+    </footer>
+</body>
+</html>

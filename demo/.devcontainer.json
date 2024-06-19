@@ -1,0 +1,6 @@
+{
+    "name": "Sprint boot api",
+    "dockerComposeFile": "../docker-compose.yml",
+    "service": "app",
+    "workspaceFolder": "/srv"
+}
